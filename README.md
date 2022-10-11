@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Featurse
+1. Quiz contest
+2. Blogs
+3. Routing
+
+### Live site Link
+
 ## Available Scripts
 
 In the project directory, you can run:
