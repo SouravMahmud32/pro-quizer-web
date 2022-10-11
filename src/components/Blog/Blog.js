@@ -3,7 +3,10 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <h2>This Blog</h2>
+            <ul>
+                <li>1. What is the perpus of use react router?</li>
+                <p>ass</p>
+            </ul>
         </div>
     );
 };

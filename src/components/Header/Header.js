@@ -58,7 +58,7 @@ const Header = () => {
 					  : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 				  }
 				>
-				  Statics
+				  Statistics
 				</NavLink>
 			  </li>
 			  <li>
@@ -178,14 +178,14 @@ const Header = () => {
 							title='Books'
 							className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 						  >
-							Statics
+							Statistics
 						  </Link>
 						</li>
 						<li>
 						  <Link
 							to='/blog'
-							aria-label='Books'
-							title='Books'
+							aria-label='Statistics'
+							title='Statistics'
 							className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 						  >
 							Blogs
