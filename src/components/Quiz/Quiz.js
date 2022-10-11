@@ -1,9 +1,10 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Quiz = ({ quiz }) => {
-  const { logo, name } = quiz;
+  const { logo, name, id} = quiz;
   return (
     <div className="">
       <img
@@ -12,12 +13,17 @@ const Quiz = ({ quiz }) => {
         alt=""
       />
       <p className="mb-4 text-lg font-bold text-gray-100">{name}</p>
-      <button className="text-gray-100 bg-amber-600 m-2 p-2 border-r-4 rounded-md hover:bg-red-600">
-        <a href="/quiz">
-        Start Quiz
-        <FontAwesomeIcon className="pl-2" icon={faArrowRight}></FontAwesomeIcon>
-        </a>
-      </button>
+      <Link to={`../StartQuiz/${id}`}>
+        <button className="text-gray-100 bg-amber-600 m-2 p-2 border-r-4 rounded-md hover:bg-red-600">
+          
+            Start Quiz
+            <FontAwesomeIcon
+              className="pl-2"
+              icon={faArrowRight}
+            ></FontAwesomeIcon>
+          
+        </button>
+      </Link>
     </div>
   );
 };

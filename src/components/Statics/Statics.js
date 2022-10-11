@@ -14,7 +14,7 @@ const Statics = () => {
   const quizData = useLoaderData();
   const quiz = quizData.data;
   return (
-    <ResponsiveContainer width={600} height={300}>
+    <ResponsiveContainer width='95%' height={400}>
       <LineChart
         data={quiz}
         margin={{ top: 5, right: 20, bottom: 5, left: 0 }}

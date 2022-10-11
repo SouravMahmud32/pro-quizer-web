@@ -8,6 +8,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Main from "./components/layouts/Main";
 import Quiz from "./components/Quiz/Quiz";
+import StartQuiz from "./components/StartQuiz/StartQuiz";
 import Statics from "./components/Statics/Statics";
 
 function App() {
@@ -39,6 +40,11 @@ function App() {
           path: "/about",
           element: <About></About>,
         },
+        {
+          path: 'startquiz/:id',
+          loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
+          element: <StartQuiz></StartQuiz>
+        }
       ],
     },
   ]);
