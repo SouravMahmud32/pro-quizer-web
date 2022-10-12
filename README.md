@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Routing
 
 ### Live site Link
-[netlify] (https://preeminent-cat-737cb4.netlify.app/about)
+[netlify] (https://preeminent-cat-737cb4.netlify.app).
 ## Available Scripts
 
 In the project directory, you can run:
