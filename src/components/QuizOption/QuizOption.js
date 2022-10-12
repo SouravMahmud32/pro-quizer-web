@@ -3,7 +3,6 @@ import toast, { Toaster } from "react-hot-toast";
 
 const QuizOption = ({ option, quiz }) => {
   const { correctAnswer, id } = quiz;
-  console.log(correctAnswer);
   const handleCorrectAnswer = (id) => {
     if (option === correctAnswer) {
       toast.success("Correct Answer", { autoClose: 500 });

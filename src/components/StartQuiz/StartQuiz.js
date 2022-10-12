@@ -7,7 +7,7 @@ const StartQuiz = () => {
     const {data} = quizData;
     // console.log(quizData);
     const quizes = quizData.data.questions;
-    console.log(quizes);
+    // console.log(quizes);
     return (
         <div>
             <h1 className='text-3xl font-bold text-blue-500 p-4'>Quiz</h1>
