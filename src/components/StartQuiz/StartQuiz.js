@@ -5,7 +5,7 @@ import ShowQuiz from '../ShowQuiz/ShowQuiz';
 const StartQuiz = () => {
     const quizData = useLoaderData();
     const {data} = quizData;
-    console.log(quizData);
+    // console.log(quizData);
     const quizes = quizData.data.questions;
     console.log(quizes);
     return (

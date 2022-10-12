@@ -14,7 +14,7 @@ const ShowQuiz = ({ quiz }) => {
           <button className="pl-40 "><FontAwesomeIcon className="p-2 rounded-lg hover:text-blue-500 text-xl hover:bg-gray-400" icon={faEyeSlash}></FontAwesomeIcon></button>
         </div>
         {options.map((option, idx) => (
-          <QuizOption key={idx} option={option}></QuizOption>
+          <QuizOption key={idx} option={option} quiz={quiz}></QuizOption>
         ))}
       </ul>
     </div>
